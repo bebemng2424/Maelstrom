@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Loginpage {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.logo {
+    background-color: #454545;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.login{
+ color: #FF6000;
+ font-weight:bolder;
+ font-size: xxx-large;
+}
+.welcomeback {
+    background-color: #FBEBE2;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.welcomeback h1{
+    color: #FF6000;
+    font-weight:bolder;
+    font-size: xxx-large;
+}
+.welcomeback input{
+   /* border:2px #FF6000; */
+    padding: 15px;
+    width: 47.10%;
+    margin: 10px;
+
+}
+.welcomeback button{
+    background-color: #FF6000;
+    padding: 18px;
+    width: 50%;
+    color: white;
+    margin: 25px;
+}
+.welcomeback h3{
+    color: #FF6000;font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 0
+}
+.welcomeback p{
+    margin-top:0
+}
