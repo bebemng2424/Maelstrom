@@ -1,5 +1,5 @@
 <style>
-    .active::after {
+    .nav-item .active::after {
       content: "";
       position: absolute;
       bottom: 25%;

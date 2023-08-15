@@ -41,5 +41,7 @@ Route::get('/contact', function () {
 })->name('contact');
 
 
-
+Route::get('/book', function () {
+    return view('book');
+})->name('book');
 
