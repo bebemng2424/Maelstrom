@@ -1,5 +1,7 @@
 <?php
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\ProductController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,9 +32,9 @@ Route::get('/login', function () {
 
 Route::get('/service', [ServiceController::class, 'showServices'])->name('service');
 
-Route::get('/product', function () {
-    return view('product');
-})->name('product');
+Route::get('/product', [ProductController::class, 'showProducts'])->name('product');
+
+
 Route::get('/gallery', function () {
     return view('gallery');
 })->name('gallery');
