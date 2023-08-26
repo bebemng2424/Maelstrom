@@ -450,4 +450,49 @@ body {
   background-color: #ffffff;
   border-color: #FF6000;
 }
+.profileinfo .phistory{
+  height:auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: rgba(252, 243, 236, 0.00);
+  
+}
+.profileinfo .phistory1{
+  width: auto;
+  height: auto;
+  margin:30px;
+  
+}
+.profileinfo .phistory2{
+  margin-top: 10px;
+  border: 2px solid;
+  border-color:#FF6000;
+  border-radius: 10px;
+}
+.profileinfo .phistory3{
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid;
+  border-color:#FF6000;
+  border-radius: 10px;
+}
+.profileinfo .phistory3 img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.profileinfo .btnrequest1{
+  width: 165px;
+  color: #ffffff;
+  background-color: #FF6000;
+  border-color: #FF6000;
+}
+.profileinfo .btnrequest3{
+  width: 165px;
+  color: #FF6000;
+  background-color: #ffffff;
+  border-color: #FF6000;
+}
+
 

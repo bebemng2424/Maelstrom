@@ -41,6 +41,9 @@
           </li>
           <li class="nav-item position-relative ">
             <a class="nav-link my-1 mx-4  {{ request()->is('profileinfo') ? 'active' : '' }}" href="{{ route('profileinfo') }}"><i class="fa-solid fa-user"  style="font-size: 20px;color: #F24E1E;"></i></a>
+            {{-- <a class="nav-link my-1 mx-4  {{ request()->is('bookingrequests') ? 'active' : '' }}" href="{{ route('bookingrequests') }}"><i class="fa-solid fa-user"  style="font-size: 20px;color: #F24E1E;"></i></a>
+            <a class="nav-link my-1 mx-4  {{ request()->is('purchasehistory') ? 'active' : '' }}" href="{{ route('purchasehistory') }}"><i class="fa-solid fa-user"  style="font-size: 20px;color: #F24E1E;"></i></a> --}}
+
           </li>
 
         </ul>

@@ -10,7 +10,7 @@ class ProductController extends Controller
 {
     public function showProducts()
     {
-        $services = [
+        $products = [
     ["productName" => "Car Alarm Installation", "productPrice" => 15000],
     ["productName" => "Car Sound Set Up", "productPrice" => 12000],
     ["productName" => "Troubleshoot Sound System", "productPrice" => 8000],
@@ -44,7 +44,7 @@ class ProductController extends Controller
     $perPage = 9;
 
     // Create a new collection from the services array
-    $servicesCollection = new Collection($services);
+    $servicesCollection = new Collection($products);
 
     // Get the current page from the request query string
     $currentPage = Paginator::resolveCurrentPage();

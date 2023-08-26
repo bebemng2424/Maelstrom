@@ -32,16 +32,22 @@ Route::get('/login', function () {
 })->name('login');
 
 Route::get('/service', [ServiceController::class, 'showServices'])->name('service');
-
 Route::get('/product', [ProductController::class, 'showProducts'])->name('product');
 
-Route::get('/service', function () {
-    return view('service');
-})->name('service');
 
-Route::get('/product', function () {
-    return view('product');
-})->name('product');
+// Route::get('/service', function () {
+//     return view('service');
+// })->name('service');
+
+// Route::get('/product', function () {
+//     return view('product');
+// })->name('product');
+
+
+Route::get('/register', function () {
+    return view('Register');
+})->name('register');
+
 
 Route::get('/gallery', function () {
     return view('gallery');
@@ -52,20 +58,24 @@ Route::get('/contact', function () {
 })->name('contact');
 
 Route::get('/profileinfo', function () {
-    return view('profile.profileinfo');
+    return view('profile._profileinfo');
 })->name('profileinfo');
 
 Route::get('/bookingrequests', function () {
-    return view('profile.bookingrequests');
+    return view('profile._bookingrequests');
 })->name('bookingrequests');
+
+// Route::get('/purchasehistory', function() {
+//     return view('profile._purchasehistory');
+// })->name('purchasehistory'); 
+
+Route::get('/purchasehistory', function(){
+    return view('profile._purchasehistory');
+})->name('purchasehistory');
 
 Route::get('login', function () {
     return view('Login');
 });
-
-Route::get('register', function () {
-    return view('Register');
-})->name('register');
 
 Route::get('/book', function () {
     return view('book');

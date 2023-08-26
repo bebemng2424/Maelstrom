@@ -25,7 +25,7 @@
            <h4 style="padding-top:14px;">We offer you </h3> 
             <h1 class="fw-bolder "><span style="color: #FF6000;"> trustworthy </span>auto refurbishing</h1>
            <h4>let us be your trusted partner in maintaining <br> <br>
-            the health and reliability of your vehicle  </h3> 
+            the health and reliabili ty of your vehicle  </h3> 
         </div>
         <div class="container h-50 w-75 me-0 ms-5   d-flex align-items-start justify-content-start ">
             <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;">Schedule Appointment</div>

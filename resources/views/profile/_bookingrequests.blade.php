@@ -21,7 +21,7 @@
         <div class="d-flex btn-group btn-group-lg bd-highlight" role="group" aria-label="Basic example">
             <button type="button" class="btn forbutton" onclick="window.location.href='{{route('profileinfo')}}'">PROFILE</button>
             <button type="button" class="btn forbutton active">BOOKING REQUESTS</button>
-            <button type="button" class="btn forbutton">PURCHASE HISTORY</button>
+            <button type="button" class="btn forbutton" onclick="window.location.href='{{route('purchasehistory')}}'">PURCHASE HISTORY</button>
         </div>
 
         
