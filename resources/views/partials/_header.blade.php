@@ -43,12 +43,13 @@
             <a class="nav-link my-1 mx-4  {{ request()->is('profileinfo') ? 'active' : '' }}" href="{{ route('profileinfo') }}"><i class="fa-solid fa-user"  style="font-size: 20px;color: #F24E1E;"></i></a>
             {{-- <a class="nav-link my-1 mx-4  {{ request()->is('bookingrequests') ? 'active' : '' }}" href="{{ route('bookingrequests') }}"><i class="fa-solid fa-user"  style="font-size: 20px;color: #F24E1E;"></i></a>
             <a class="nav-link my-1 mx-4  {{ request()->is('purchasehistory') ? 'active' : '' }}" href="{{ route('purchasehistory') }}"><i class="fa-solid fa-user"  style="font-size: 20px;color: #F24E1E;"></i></a> --}}
-
+          </li>
+          <li class="nav-item position-relative ">
+            <a class="nav-link my-1 mx-4  {{ request()->is('cart') ? 'active' : '' }}" href="{{ route('cart') }}"><i class="fa-solid fa-cart-shopping my-1 mx-4" style="font-size: 20px;color: #F24E1E;"></i></a>
           </li>
 
         </ul>
-       
-        <i class="fa-solid fa-cart-shopping my-1 mx-4 " style="font-size: 20px;color: #F24E1E;"></i>
+      
 
         </div>
       </div>

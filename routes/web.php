@@ -81,3 +81,10 @@ Route::get('/book', function () {
     return view('book');
 })->name('book');
 
+Route::get('/cart', function () {
+    return view('cart');
+})->name('cart');
+
+Route::get('/requestform', function () {
+    return view('requestform');
+})->name('requestform');

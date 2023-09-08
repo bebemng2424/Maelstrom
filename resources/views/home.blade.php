@@ -28,8 +28,8 @@
             the health and reliabili ty of your vehicle  </h3> 
         </div>
         <div class="container h-50 w-75 me-0 ms-5   d-flex align-items-start justify-content-start ">
-            <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;">Schedule Appointment</div>
-            <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;">Order Parts</div>
+            <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;" onclick="window.location.href='{{route('requestform')}}'">Schedule Appointment</div>
+            <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;" onclick="window.location.href='{{route('product')}}'">Order Parts</div>
         </div>
     </div>
 
