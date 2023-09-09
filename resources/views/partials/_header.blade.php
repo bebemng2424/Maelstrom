@@ -13,7 +13,7 @@
 <header style="background-color: #1E1B1B;position: sticky;top: 0;z-index: 5;">
   <nav class="navbar navbar-expand-lg navbar-dark  m-0  " >
     <div class="container-fluid me-5 ms-5">
-      <a class="navbar-brand" href="#"><img src="./img/bertologylogo.png" alt="" width="70px" height="50px" style="margin-left: -30px;">
+      <a class="navbar-brand" href="#"><img src="./img/Newlogo.png" alt="" width="100px" height="100px" style="margin-left: -30px;">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

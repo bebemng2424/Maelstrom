@@ -3,7 +3,7 @@
 
   <div class="container w-25 h-100  d-flex flex-column justify-content-center mt-auto mb-auto  ">
     <div class="d-flex position-relative justify-content-center  ">
-      <img src="/img/ShineMasters.png" height="80px" width="100px">
+      <img src="/img/Newlogo.png" height="80px" width="100px">
       <span
         style="border-right: 1px solid white;margin-left: 20px;margin-right: 20px;border-right-width: 2px;display: block; height: 100px;"></span>
       <h2 class="text-uppercase mt-auto mb-auto z-3 ">maelstorm </h2><img src="/img/maelstorm.png" width="100px"

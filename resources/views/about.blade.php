@@ -61,13 +61,13 @@
     <h1 class="text-uppercase m-5 mb-0 text-black fw-bolder "><span style="text-decoration: underline #FF6000 5px;">Meet
         </span>the founder</h1>
     <div class="container m-auto h-75 d-flex justify-content-between align-items-center "
-        style="border: #FF6000 2px solid; border-radius: 10px;">
+        style="border:black 2px solid; border-radius: 10px;">
         <div class="d-flex flex-column justify-content-center " style="height: 98%;">
-            <img src="./img/sample.png" height="90%" name="Nilbert">
-            <label for="Nilbert" class="text-uppercase text-center fw-bolder mt-3" style="color: #FF6000;"> NIlbert M.
+            <img src="./img/Founder.png" height="90%" name="Nilbert">
+            <label for="Nilbert" class="text-uppercase text-center fw-bolder mt-3" style="color:black;"> NIlbert M.
                 Umaran / Head technician</label>
         </div>
-        <h5 class="me-5" style="color: #FF6000;text-align: justify;width: 40%;">Lorem ipsum dolor sit amet, consectetur
+        <h5 class="me-5" style="color: black;text-align: justify;width: 40%;">Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
