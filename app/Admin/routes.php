@@ -13,5 +13,6 @@ Route::group([
 
     $router->get('/', 'HomeController@index')->name('home');
     $router->resource('applications', Application::class);
+    $router->resource('requestforms', Requestform::class);
 
 });
