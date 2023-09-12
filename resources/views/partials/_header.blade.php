@@ -28,16 +28,16 @@
               <a class="nav-link m-4 {{ request()->is('about') ? 'active' : '' }}" href="{{ route('about') }}">About Us</a>
             </li>
             <li class="nav-item position-relative ">
-              <a class="nav-link m-4 {{ request()->is('service') ? 'active' : '' }}" href="{{ route('service') }}">Services</a>
+              <a class="nav-link m-4 {{ request()->is('service') ? 'active' : '' }}" href="{{ route('services.index') }}">Services</a>
             </li>
             <li class="nav-item position-relative ">
-              <a class="nav-link m-4 {{ request()->is('product') ? 'active' : '' }}" href="{{ route('product') }}">Products</a>
+              <a class="nav-link m-4 {{ request()->is('product') ? 'active' : '' }}" href="{{ route('products.index') }}">Products</a>
             </li>
             <li class="nav-item position-relative ">
-              <a class="nav-link m-4 {{ request()->is('gallery') ? 'active' : '' }}" href="{{ route('gallery') }}">Gallery</a>
+              <a class="nav-link m-4 {{ request()->is('gallery') ? 'active' : '' }}" href="{{ route('galleries.index') }}">Gallery</a>
             </li>
             <li class="nav-item position-relative ">
-              <a class="nav-link m-4 {{ request()->is('contact') ? 'active' : '' }}" href="{{ route('contact') }}">Contact Us</a>
+              <a class="nav-link m-4 {{ request()->is('contact') ? 'active' : '' }}" href="{{ route('contacts.index') }}">Contact Us</a>
             </li>
 
           </ul>
