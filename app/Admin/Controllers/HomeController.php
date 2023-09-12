@@ -14,9 +14,10 @@ class HomeController extends Controller
     public function index(Content $content)
     {
         return $content
+
             ->css_file(Admin::asset("open-admin/css/pages/dashboard.css"))
-            ->title('Dashboard')
-            ->description('Description...')
+            ->title('BERTOLOGY')
+            ->description('an admin panel for bertology from Open Admin a administrative interface builder for laravel which can help you build CRUD backends just with few lines of code.')
             ->row(Dashboard::title())
             ->row(function (Row $row) {
 
@@ -31,6 +32,9 @@ class HomeController extends Controller
                 $row->column(4, function (Column $column) {
                     $column->append(Dashboard::dependencies());
                 });
+
             });
+
+
     }
 }

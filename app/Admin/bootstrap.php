@@ -20,3 +20,17 @@
 
 OpenAdmin\Admin\Form::forget(['editor']);
 
+use OpenAdmin\Admin\Facades\Admin;
+
+Admin::navbar(function (\OpenAdmin\Admin\Widgets\Navbar $navbar) {
+
+    $navbar->left(' ');
+
+    // adds fullscreen option
+    $navbar->right(new OpenAdmin\Admin\Widgets\Navbar\Fullscreen());
+
+    // adds ajax refresh button
+    $navbar->right(new OpenAdmin\Admin\Widgets\Navbar\RefreshButton());
+
+});
+
