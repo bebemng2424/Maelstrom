@@ -39,11 +39,9 @@
             <li class="nav-item position-relative ">
               <a class="nav-link m-4 {{ request()->is('contact') ? 'active' : '' }}" href="{{ route('contacts.index') }}">Contact Us</a>
             </li>
-
           </ul>
           <i class="fa-solid fa-user   m-4" style="font-size: 20px;color: #F24E1E;"></i>
           <i class="fa-solid fa-cart-shopping   m-4" style="font-size: 20px;color: #F24E1E;"></i>
-
         </div>
       </div>
     </nav>
