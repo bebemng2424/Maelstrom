@@ -4,7 +4,7 @@
 
 @section('content')
 
-@include('partials._header')
+{{-- @include('partials._header') --}}
 <style>
 
 .pagination > li > a,
@@ -59,7 +59,7 @@ border: none;
                 <br>
                 <h5 class="card-title ">{{ $service['name'] }}</h5>
                 <p class="card-text">Price: Php {{ number_format($service['price']) }}</p>
-               
+
                 <button class="btn w-75 text-white p-3 fw-bold m-2" style="background-color: #FF6000;">BOOK APPOINTMENT</button>
             </div>
         </div>
@@ -71,7 +71,7 @@ border: none;
         {{ $services->links() }}
     </div>
     </div>
-    
+
 </div> <br><br>
-@include('partials._footer')
+{{-- @include('partials._footer') --}}
 @endsection

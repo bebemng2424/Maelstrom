@@ -4,7 +4,7 @@
 @section('content')
 
 {{-- Header --}}
-@include('partials._header')
+{{-- @include('partials._header') --}}
 
 {{-- About Us --}}
 <div class="container-fluid p-0" style="height: 100vh;">
@@ -70,6 +70,6 @@
 </div>
 
 {{-- Footer --}}
-@include('partials._footer')
+{{-- @include('partials._footer') --}}
 
 @endsection
