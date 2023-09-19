@@ -10,7 +10,7 @@
     <title>Log In</title>
 </head>
 <body>
-    @include('partials._header')
+    <br>  <br>  <br>  <br>
     <div class="container-fluid Loginpage">
         <div class="logo">
             <img src="img/logo.png" width="150px" height="150px" style="margin-top: 33px;">
@@ -30,5 +30,4 @@
 </body>
 
 </html>
-{{-- @include('partials._footer') --}}
 @endsection

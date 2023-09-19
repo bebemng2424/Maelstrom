@@ -7,7 +7,7 @@ use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\ProductController;
-
+use App\Http\Controllers\GalleryController;
 use Illuminate\Support\Facades\Route;
 
 /*

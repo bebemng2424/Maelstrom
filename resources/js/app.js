@@ -27,7 +27,7 @@ prev.addEventListener("click", () => {
   if (!leftValue == 0) {
     leftValue -= -totalMovementSize;
     cCarouselInner.style.left = leftValue + "px";
-  }
+  } 
 });
 
 next.addEventListener("click", () => {
