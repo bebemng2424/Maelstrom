@@ -73,12 +73,11 @@
                     @foreach($gallerys as $gallery)
                     <div class="card col-lg-3 m-4 p-0">
                         <div
-                            class="card-body d-flex justify-content-center align-items-center  flex-column pt-0 ps-0 pe-0 ">
+                            class="card-body d-flex justify-content-center align-items-center  flex-column pt-0 ps-0 pe-0 pb-0 ">
                             <img src="./img/ShineMasters.png" width="100%" height="100%" alt=""
                                 style="background-color: black;display: inline-block;max-width: fit-content;">
                             <br>
-                            <h5 class="card-title ">{{ $gallery['galleryName'] }}</h5>
-                            <p class="card-text">Price: Php {{ number_format($gallery['galleryPrice']) }}</p>
+                       
 
                             <button class="btn w-75 text-white p-3 fw-bold m-2" style="background-color: #FF6000;">BOOK
                                 APPOINTMENT</button>
@@ -120,12 +119,11 @@
                     @foreach($gallerys as $gallery)
                     <div class="card col-lg-3 m-4 p-0">
                         <div
-                            class="card-body d-flex justify-content-center align-items-center  flex-column pt-0 ps-0 pe-0 ">
+                            class="card-body d-flex justify-content-center align-items-center  flex-column pt-0 ps-0 pe-0 pb-0">
                             <img src="./img/ShineMasters.png" width="100%" height="100%" alt=""
                                 style="background-color: black;display: inline-block;max-width: fit-content;">
                             <br>
-                            <h5 class="card-title ">{{ $gallery['galleryName'] }}</h5>
-                            <p class="card-text">Price: Php {{ number_format($gallery['galleryPrice']) }}</p>
+                            
 
                             <button class="btn w-75 text-white p-3 fw-bold m-2" style="background-color: #FF6000;">BOOK
                                 APPOINTMENT</button>
