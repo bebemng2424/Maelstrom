@@ -1,3 +1,4 @@
+
 <footer class="footer text-light bottom-0 d-flex justify-content-around "
   style="background-color: #1E1B1B;height: 30vh;">
 
@@ -13,9 +14,7 @@
     <h5 class="mb-0 mt-4 text-center">
       Get your car accessories installed now for free!
       </h4>
-
   </div>
-
   <div class="container w-25 h-100 d-flex flex-column justify-content-center m-auto align-items-center  ">
     <h5 class="fw-bold ">Useful Links</h3>
       <h6>Products</h4>
@@ -23,16 +22,11 @@
           <h6>Gallery</h4>
             <h6>Home</h4>
   </div>
-
   <div class="container w-25 h-100 d-flex flex-column justify-content-center align-items-center mt-auto mb-auto ">
-
     <h3>Connect with us now</h3>
     <div class="brand d-flex">
       <i class="fa-brands fa-facebook" style="color: #FF6000;font-size: 35px;margin: 10px;"></i>
       <i class="fa-brands fa-facebook-messenger" style="color: #FF6000;font-size: 35px;margin: 10px;"></i>
     </div>
-
   </div>
-
-
 </footer>

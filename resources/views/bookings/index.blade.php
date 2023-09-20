@@ -33,19 +33,16 @@
         height: 100px;
     }
 </style>
-
 <div class="container-fluid"
     style="background-color:#B0B0B0;min-height:89vh;display:flex;align-items:center;justify-content:center">
     <div class="card container rounded-4 w-25 pe-0 ps-0 border-0" style="height:50vh;background-color:#454545">
         <div class="card-header d-flex justify-content-end align-items-center " style="height:50px;color:#FF6000;">
             <i class="fas fa-times" style="color:#FF6000;font-size:30px"></i>
-
         </div>
         <div class="card-body" style="background-color:#FFE6C7;min-height:50vh;">
             <h2 class="text-center title text-uppercase">
                 Book your service now!
             </h2>
-
             <form class="mt-4">
                 <div class="form-group p-2">
                     <label for="socialmedia">Email/Facebook/Messenger :</label>
@@ -70,14 +67,6 @@
     </div>
 
 </div>
-
-
-
 <script>
-
-
-
 </script>
-
-
 @endsection

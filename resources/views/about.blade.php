@@ -1,18 +1,12 @@
 @extends('layouts.layout')
 
 @section('title', 'About Us')
-
-
 @section('content')
 
-
-
-
 {{-- Header --}}
-@include('partials._header')
+{{-- @include('partials._header') --}}
 
 {{-- About Us --}}
-
 <div class="container-fluid p-0" style="height: 100vh;">
     <div class="container h-50 position-relative  ">
         <h1 class="text-center h-100 d-flex flex-column justify-content-center text-uppercase fw-bolder ">About Us
@@ -76,6 +70,6 @@
 </div>
 
 {{-- Footer --}}
-@include('partials._footer')
+{{-- @include('partials._footer') --}}
 
 @endsection

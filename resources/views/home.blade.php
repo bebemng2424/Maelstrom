@@ -1,9 +1,8 @@
 @extends('layouts.layout')
 @section('title', 'Landing Page')
-
 @section('content')
 
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,27 +11,24 @@
  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
  <script src="\resources\js\app.js"></script>
-
     <title>Log In</title>
-    
 </head>
-<body>
+<body> --}}
 <div class="container-fluid p-0 " style="height: auto;">
-    @include('partials._header')
+    {{-- @include('partials._header') --}}
 
     <div class="h-50 mt-5 ms-5 me-5 mb-3 d-flex flex-column" style="background: url(./img/landingpage.jpg);background-size: cover;background-position: center;">
         <div class="container bg-white h-50 w-75  bg-opacity-25 me-0 ms-5 mt-5 text-uppercase text-white d-flex  flex-column justify-content-evenly">
-           <h4 style="padding-top:14px;">We offer you </h3> 
+           <h4 style="padding-top:14px;">We offer you </h3>
             <h1 class="fw-bolder "><span style="color: #FF6000;"> trustworthy </span>auto refurbishing</h1>
            <h4>let us be your trusted partner in maintaining <br> <br>
-            the health and reliability of your vehicle  </h3> 
+            the health and reliabili ty of your vehicle  </h3>
         </div>
         <div class="container h-50 w-75 me-0 ms-5   d-flex align-items-start justify-content-start ">
-            <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;">Schedule Appointment</div>
-            <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;">Order Parts</div>
+            <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;" onclick="window.location.href='{{ route('services.create') }}'">Schedule Appointment</div>
+            <div class="btn w-25 m-5 p-2" style="background-color: #FF6000;" onclick="window.location.href='{{ route('products.index') }}'">Order Parts</div>
         </div>
     </div>
-
 
    <!-- START of Trusted Partners Section -->
     <section class="container partners" >
@@ -57,12 +53,12 @@
             <div class="col-md-2 align-middle">
                 <img src="./img/brand1.png" class="rounded-circle object-fit-scale p-3" alt="...">
             </div>
-            
+
         </div>
     </section>
     <!-- ------------------------------------------------------------------------------------------ -->
 
-    <!-- START of Why Choose Us Section --> 
+    <!-- START of Why Choose Us Section -->
     <section class="container chooseUs position-relative" >
     <span class="text-uppercase fs-4">Why Choose Us</span>
     <hr class="hr m-1" style= "width: 100px; color:#FF6000; opacity:100%;  border-width: 5px;">
@@ -78,7 +74,7 @@
                                 <div><h6 class="fw-bold text-uppercase">Experienced <span style="color: #FF6000;">Mechanics</span></h6></div>
                                 <div><h6 class="label">We have our mechanics on standby to aid your need and offer service</h6></div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <div class="row col-lg-6">
                         <div class="row">
@@ -124,14 +120,13 @@
             <div class="row">
                 <div class="col-md-2">
                     <img class="techimg" src="./img/technician.png" alt="">
-                </div> 
+                </div>
             </div>
         </div>
-
     </section>
     <!-- ------------------------------------------------------------------------------------------ -->
 
-    <!-- START of Services We Provide Section --> 
+    <!-- START of Services We Provide Section -->
     <section class="servicesOffered">
         <div class=" ms-5 me-5 mb-3 d-flex flex-column" style="background: url(./img/usephoto4.png); background-size: cover;background-position: top; height: 180px;">
             <div class="container" style="padding-top:20px;">
@@ -166,15 +161,15 @@
                     </div>
                 </div>
             </div>
-    
+
         </div>
 
         </div>
-        
+
     </section>
     <!-- ------------------------------------------------------------------------------------------ -->
 
-    <!-- START of Popular Items Section --> 
+    <!-- START of Popular Items Section -->
     <section class="container popularItems">
     <span class="text-uppercase fs-4">Popular Items</span>
     <hr class="hr m-1" style= "width: 100px; color:#FF6000; opacity:100%;  border-width: 5px;">
@@ -274,7 +269,7 @@
     </section>
     <!-- ------------------------------------------------------------------------------------------ -->
 
-    <!-- START of Clients Love Section --> 
+    <!-- START of Clients Love Section -->
     <section class="container">
     <span class="text-uppercase fs-4">Clients Love</span>
     <hr class="hr m-1" style= "width: 100px; color:#FF6000; opacity:100%;  border-width: 5px;">
@@ -310,26 +305,15 @@
                                     </div>
                                 </div>
                             </div>
-                            
             </div>
-        </div>                        
-        
+        </div>
 
     </section>
     <!-- ------------------------------------------------------------------------------------------ -->
-
-    
-
-
-
-
-
-
-
 </div>
-
+{{--
 </body>
 
-</html>
-@include('partials._footer')
+</html> --}}
+{{-- @include('partials._footer') --}}
 @endsection

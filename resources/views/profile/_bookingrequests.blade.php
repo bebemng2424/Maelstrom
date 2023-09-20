@@ -12,7 +12,7 @@
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <title>Log In</title>
-    
+
 </head>
 <body>
     @include('partials._header')
@@ -21,14 +21,14 @@
         <div class="d-flex btn-group btn-group-lg bd-highlight" role="group" aria-label="Basic example">
             <button type="button" class="btn forbutton" onclick="window.location.href='{{route('profileinfo')}}'">PROFILE</button>
             <button type="button" class="btn forbutton active">BOOKING REQUESTS</button>
-            <button type="button" class="btn forbutton">PURCHASE HISTORY</button>
+            <button type="button" class="btn forbutton" onclick="window.location.href='{{route('purchasehistory')}}'">PURCHASE HISTORY</button>
         </div>
 
-        
+
         <div class="container brequest">
             <div class="container-fluid brequest1">
                 <h6><i class="bi bi-calendar" style="margin-right: 10px;"></i>Date ni diri Dapita</h6>
-                
+
                 <div class="container-fluid brequest2">
                     <div class="row row-cols-2">
                       <div class="col d-flex justify-content-start text-center ps-4 mt-4"><span style="font-size: 16px; font-weight:bold;">SERVICE NAME</span></div>
@@ -49,7 +49,7 @@
 
             </div>
 
-           
+
         </div>
 
     </div>
@@ -58,5 +58,5 @@
 
 </html>
 
-@include('partials._footer')
+{{-- @include('partials._footer') --}}
 @endsection

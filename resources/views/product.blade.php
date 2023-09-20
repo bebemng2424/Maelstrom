@@ -204,5 +204,5 @@
     </div>
 
 </div> <br><br>
-@include('partials._footer')
+{{-- @include('partials._footer') --}}
 @endsection
