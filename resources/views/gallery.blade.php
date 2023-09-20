@@ -79,8 +79,6 @@
                             <br>
                        
 
-                            <button class="btn w-75 text-white p-3 fw-bold m-2" style="background-color: #FF6000;">BOOK
-                                APPOINTMENT</button>
                         </div>
                     </div>
                     @endforeach
@@ -125,8 +123,6 @@
                             <br>
                             
 
-                            <button class="btn w-75 text-white p-3 fw-bold m-2" style="background-color: #FF6000;">BOOK
-                                APPOINTMENT</button>
                         </div>
                     </div>
                     @endforeach
