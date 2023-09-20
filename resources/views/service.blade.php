@@ -54,7 +54,7 @@ border: none;
     <div class="service-card d-flex  mt-5 justify-content-evenly flex-wrap  w-100 row">
         @foreach($services as $service)
         <div class="card col-lg-3 m-4 p-0">
-            <div class="card-body d-flex justify-content-center align-items-center  flex-column pt-0 ps-0 pe-0 ">
+            <div class="card-body d-flex justify-content-center align-items-center  flex-column pt-0S ps-0 pe-0 ">
                 <img src="./img/ShineMasters.png" width="100%" height="100%"  alt="" style="background-color: black;display: inline-block;max-width: fit-content;">
                 <br>
                 <h5 class="card-title ">{{ $service['serviceName'] }}</h5>
